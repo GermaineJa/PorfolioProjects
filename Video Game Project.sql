@@ -1,3 +1,6 @@
+---Videogame data exploration
+
+Skills used:  CTEs, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 
 --- Evaluate Dataset( check column formatting, nulls etc.)
 select * from vgsales$
@@ -5,7 +8,7 @@ select * from vgsales$
 select COUNT(distinct rank) as Disinct
 from vgsales$
 
----check nulls-The Year column contains 273 rows to be filtered out
+---Check nulls-The Year column contains 273 rows to be filtered out
 	SELECT 
 	Rank, Name,Year,genre, publisher, na_sales, eu_sales, jp_sales, other_sales
 	FROM vgsales$ 
