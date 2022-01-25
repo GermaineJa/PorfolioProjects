@@ -33,7 +33,7 @@ from vgsales$
 where Year > 2016
 
 
----There are 33 different platforms, 14 Genres and 580 Publishers being evaluated 
+---There are 33 different platforms, 12 Genres and 580 Publishers being evaluated 
 select COUNT(distinct PLATFORM) as PlatformCount, 
 Count(distinct Genre) as GenreCount, 
 COUNT(distinct Publisher) as PublisherCount
